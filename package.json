@@ -9,15 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@rushstack/eslint-config": "^4.0.1",
+    "@rushstack/eslint-patch": "^1.10.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-no-relative-import-paths": "^1.5.5",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
     "next": "^14.2.6",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "typescript-eslint": "^8.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.16.2",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
-    "eslint": "^9.9.1",
+    "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.7",
     "postcss": "^8.4.41",
     "prettier": "^3.3.3",
