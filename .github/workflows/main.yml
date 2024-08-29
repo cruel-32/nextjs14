@@ -6,7 +6,7 @@ on:
 
 jobs:
   quality:
-    name: 'CI: Check quality'
+    name: 'CI: Linting'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -14,5 +14,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Check typescript
+      - name: ESlint
         run: npm run lint
