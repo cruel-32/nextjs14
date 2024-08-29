@@ -1,17 +1,8 @@
 {
-  "search.exclude": {
-    "**/.yarn": true,
-    "**/.pnp.*": true
-  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
   "editor.formatOnSave": true,
-  "eslint.options": {
-    "overrideConfigFile": ".eslintrc.cjs"
-  },
   "eslint.validate": ["typescript", "typescriptreact"],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.configPath": "prettierrc.js",
-  "prettier.requireConfig": true
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
